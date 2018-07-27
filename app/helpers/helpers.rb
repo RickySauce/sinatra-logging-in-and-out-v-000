@@ -7,5 +7,8 @@ class Helpers
   def self.is_logged_in?(user_id)
     User.find_by(id: user_id.values) ? true : false
   end
-  
+
+  def self.current_user 
+  end
+
 end
